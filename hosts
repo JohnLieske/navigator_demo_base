@@ -1,0 +1,13 @@
+[srv1]
+192.168.60.8
+
+[srv1:vars]
+ansible_ssh_user=vagrant
+ansible_ssh_pass=vagrant
+
+[srv2]
+192.168.60.9
+
+[srv1:vars]
+ansible_ssh_user=vagrant
+ansible_ssh_pass=vagrant
